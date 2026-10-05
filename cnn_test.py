@@ -1,1 +1,0 @@
-# input data -> weights -> neurons -> prediction -> compare prediction and correct answer -> adjust weights -> repeat
