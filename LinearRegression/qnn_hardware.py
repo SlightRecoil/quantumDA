@@ -1,1 +1,0 @@
-# classical preprocessing done locally, quantum layer executed on IBM hardware

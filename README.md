@@ -1,6 +1,11 @@
 Input data -> Classical preprocessing -> Feature vector -> Encode features into qubits -> Parameterized quantum gates -> Measurement -> Prediction -> Loss -> Classical optimizer -> Update quantum circuit parameters -> Repeat
 
-
+# Installation
+```
+uv venv --python 3.11
+source .venv/bin/activate
+uv pip install -r requirements
+```
 
 # Linear Regression
 ## Data to compare:
