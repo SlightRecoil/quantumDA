@@ -1,9 +1,3 @@
-.DS_Store
-./DS_Store
-old
-Quantumancy.code-workspace
-256_ObjectCategories
-quant_practice.ipynb
 # macOS
 .DS_Store
 .AppleDouble
@@ -25,15 +19,40 @@ dist/
 .eggs/
 *.so
 
-# Virtual environments
+# uv virtual environment
 .venv/
-venv/
-env/
-ENV/
 
 # Jupyter
 .ipynb_checkpoints/
 .jupyter/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.tmp
+*.xref
 
 # Test, coverage, and type-checker artifacts
 .pytest_cache/
