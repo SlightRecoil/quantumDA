@@ -1,6 +1,55 @@
+Vorlage_Diplomarabeit/
 .DS_Store
 ./DS_Store
 old
 Quantumancy.code-workspace
 256_ObjectCategories
 quant_practice.ipynb
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Test, coverage, and type-checker artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Editors
+.idea/
+.vscode/
