@@ -7,6 +7,13 @@ source .venv/bin/activate
 uv pip install -r requirements
 ```
 
+# File Structure
+| Folder | Purpose |
+|---|---|
+| Data | Training data should be stored here |
+| PrevRun | Results of previous runs should be stored here |
+| Models | Finished models should be saved here |
+
 # Metrics to be compared (Universal)
 | Category | Metrics |
 |---|---|
@@ -15,12 +22,6 @@ uv pip install -r requirements
 | Inference cost | Latency for 1 sample, throughput for a full batch |
 | Model | Parameter count, saved file size |
 
-# File Structure
-| Folder | Purpose |
-|---|---|
-| Data | Training data should be stored here |
-| PrevRun | Results of previous runs should be stored here |
-| Models | Finished models should be saved here |
 
 # Linear Regression
 ## Metrics to be compared
